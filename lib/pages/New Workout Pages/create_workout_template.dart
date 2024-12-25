@@ -168,6 +168,8 @@ Widget build(BuildContext context) {
             ElevatedButton(
               onPressed: _saveWorkout,
               child: const Text('Сохранить тренировку'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.blue,),
             ),
           ],
         ),
